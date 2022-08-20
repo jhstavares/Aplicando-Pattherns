@@ -1,0 +1,10 @@
+package com.exercicioPatterns.Aplicando.Pattherns.modelPagamento.calculoPagamento;
+
+import com.exercicioPatterns.Aplicando.Pattherns.modelPagamento.PagamentoModel;
+
+import java.math.BigDecimal;
+
+public interface Calculo {
+    public BigDecimal factory(PagamentoModel pagamentoModel);
+}
+
